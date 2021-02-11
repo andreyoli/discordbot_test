@@ -5,6 +5,16 @@
   "license": "MIT",
   "dependencies": {
     "discord.js": "^12.5.1",
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "knex": "^0.21.17",
+    "mysql": "^2.18.1"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
   }
 }
