@@ -6,8 +6,10 @@
   "dependencies": {
     "discord.js": "^12.5.1",
     "dotenv": "^8.2.0",
+    "enmap": "^5.8.4",
     "knex": "^0.21.17",
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "rss-parser": "^3.11.0"
   },
   "scripts": {
     "start": "node src/index.js"
